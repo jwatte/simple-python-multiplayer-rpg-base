@@ -1,8 +1,8 @@
-== Write your own MMORPG in four hours using Python!
+# Write your own MMORPG in four hours using Python!
 
-October 4, 2008 - 09:52 — jwatte
+_October 4, 2008 - 09:52 — jwatte_
 
-retrieved from https://enchantedage.com/pymmo
+_retrieved from https://enchantedage.com/pymmo_
 
 
 I moderate the multiplayer and networking forum on gamedev.net. It's a pretty easy job, because most users are very polite, helpful, and well behaved. However, it seems that, monthly, someone who has never written a networked program shows up and posts their "architecture" for an "MMO" server.
