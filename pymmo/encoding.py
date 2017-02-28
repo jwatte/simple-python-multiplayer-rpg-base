@@ -3,8 +3,8 @@ import string
 
 #   todo: this may perform poorly, but I don't have the Python-fu to do it right
 
-dequotes = { 'n' : '\n', 'c' : ',', 's' : ';', 'w' : ' ', 't' : "\t" }
-enquotes = { ',' : "\\c", ';' : "\\s", "\n" : "\\n", ' ' : "\\w", "\t" : "\\t" }
+dequotes = { 'n' : '\n', 'c' : ',', 's' : ';', 'w' : ' ', 't' : "\t", '\\' : '\\' }
+enquotes = { ',' : "\\c", ';' : "\\s", "\n" : "\\n", ' ' : "\\w", "\t" : "\\t", '\\' : '\\\\' }
 
 
 def dequote(str):
